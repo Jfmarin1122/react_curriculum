@@ -18,7 +18,7 @@ import github from './components/images/github.png';
 import web from './components/images/js_html_css.png';
 import gitlab from './components/images/gitlab.png';
 import OfMainTitleTec from './components/title';
-import technologies from './components/images/tecnologias.png';
+import technologies from './components/images/tec.png';
 //import logo from './components/imagenes/tecnologias.png';
 
 function App() {

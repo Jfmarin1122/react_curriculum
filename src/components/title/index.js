@@ -5,7 +5,7 @@ function Titles(props){
       <div className='information--degrees'>
         <br></br>
         <br></br>
-        <h4 className = "title--form"><b>{props.tecnologias}</b></h4>
+        <h4 className = "title--tec"><b>{props.tecnologias}</b></h4>
         <br></br>
       </div>
     );
@@ -29,7 +29,7 @@ function OfMainTitleTec(){
     return(
         <div>
             <CurriculumTitleTec
-            formulario = {myTitles.formulario}
+            tecnologias = {myTitles.tecnologias}
             />
         </div>
     );
