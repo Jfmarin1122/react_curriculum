@@ -3,65 +3,42 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Form(props) {
     return (
-      <div className="ultimo--contenedor">
-          <div className="row">
-              <div className="col-12">
-                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                  <div className="row">
-                      <div className="col-md-6">
-                      <div className="md-form mb-0">
-                          <input type="text" id="name" name="name" className="form-control" />
-                          <label htmlFor="name" className="">
-                          <h4 className="titulo--global">{props.YourName}</h4>
-                          </label>
-                      </div>
-                      </div>
-                      <div className="col-md-6">
-                      <div className="md-form mb-0">
-                          <input type="text" id="email" name="email" className="form-control" />
-                          <label htmlFor="email" className="">
-                          <h4 className="titulo--global">{props.YourEmail}</h4>
-                          </label>
-                      </div>
-                      </div>
-                  </div>
-                  <div className="row">
-                      <div className="col-md-12">
-                      <div className="md-form mb-0">
-                          <input type="text" id="subject" name="subject" className="form-control" />
-                          <label htmlFor="subject" className="">
-                          <h4 className="titulo--global">{props.subject}</h4>
-                          </label>
-                      </div>
-                      </div>
-                  </div>
-                  <div className="row">
-                      <div className="col-md-12">
-                      <div className="md-form">
-                          <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
-                          <label htmlFor="message">
-                          <h4 className="titulo--global">{props.message}</h4>
-                          </label>
-                      </div>
-                      </div>
-                  </div>
-                  </form>
-                  <div>
-                  <a className="btn btn--primary" onClick={() => document.getElementById("contact-form").submit()}>
-                      <h4 className="titulo--global">{props.send}</h4>
-                  </a>
-                  </div>
-                  <div className="status"></div>
-              </div>
-          </div>
-      </div>
+        <div class="card border-primary rounded-0">
+            <div class="card-header p-0">
+                <div class="contac_title">
+                    <h3><i class = "contac_text"></i> Contáctame</h3>
+                </div>
+            </div>
+            <div class="card-body p-3">
+                <div class="form-group">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group mb-2">
+                        <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-group mb-2">
+                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2"/>
+                </div>
+            </div>
+
+        </div>
     );
   }
   
   const formInfo ={
       YourName:'Nombre',
       YourEmail:'Correo',
-      message:'Escribe un mensaje',
       subject:'Objetivo',
       send:'enviar'
   }
@@ -72,7 +49,6 @@ function Form(props) {
               <Form
               YourName={props.YourName}
               YourEmail={props.YourEmail}
-              message={props.message}
               subject={props.subject}
               send={props.send} 
               />
@@ -86,7 +62,6 @@ function Form(props) {
               <CurriculumForm
               YourName={formInfo.YourName}
               YourEmail={formInfo.YourEmail}
-              message={formInfo.message}
               send={formInfo.send}
               subject={formInfo.subject}
               />

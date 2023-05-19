@@ -7,13 +7,9 @@ function Titles(props){
         <br></br>
         <ul className = "list_studies">
           <li><p>{props.primary}</p></li>
-           
           <li><p>{props.secundary}</p></li>   
-         
           <li><p>{props.tecnology}</p></li>   
-          
           <li><p>{props.universitary}</p></li>   
-          
         </ul>
       </div>
     );

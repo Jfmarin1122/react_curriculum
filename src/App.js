@@ -10,6 +10,7 @@ import OfMainProfessionalProfile from './components/professional_profile';
 import OfMainWorkExperience from './components/work_experience';
 import OfMainOtherStudies from './components/other_studies';
 import personal from './components/images/foto.png';
+import OfMainTitleForm from './components/title';
 //import logo from './components/imagenes/tecnologias.png';
 
 function App() {
@@ -50,6 +51,14 @@ function App() {
           <OfMainTitles/>
         </div>
         <div className = 'col-1'></div>
+      </div>
+      <div className = 'row'>
+        <div className = 'col-4'></div>
+        <div className = 'col-4'>
+          <br></br>
+          <OfMainForm/>
+        </div>
+        <div className = 'col-4'></div>
       </div>
     </div>
   )

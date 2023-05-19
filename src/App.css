@@ -69,6 +69,24 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.title--form{
+  background-color: rgb(106, 136, 192);
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(219, 215, 215);
+  text-align: center;
+}
+
+.contac_title {
+  background-color: rgb(106, 136, 192);
+}
+
+.contac_text {
+  background-color: rgb(106, 136, 192);
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(219, 215, 215);
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
