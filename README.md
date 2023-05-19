@@ -17,12 +17,13 @@ Proyecto que consiste en la creación de un curriculum, en la que se utilizan di
 
 ### Realizado por:
 
-Juan Felipe Marín Romero, soy estudiante de Ingeniería de Sistemas y Telecomunicaciones, actualmente curso quinto semestre en la universidad de manizales <a href='https://umanizales.edu.co/' target='_blank'></a> tengo conocimiento en las siguiente tecnologias.
-<img src='../curriculum_vitae/src/components/images/tec.png' alt = 'Tecnologias'/><br>
-Espero seguir ampliando mi conocimiento, en diversos ambitos tecnológicos.
+Juan Felipe Marín Romero, soy estudiante de Ingeniería de Sistemas y Telecomunicaciones, actualmente curso quinto semestre en la [Universidad de Manizales](https://umanizales.edu.co/) tengo conocimiento en las siguiente tecnologias.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Tecnologías:
+
+<img src='../curriculum_vitae/src/components/images/tec.png' alt = 'Tecnologias'/>
+
 
 ### `npm run build`
 
