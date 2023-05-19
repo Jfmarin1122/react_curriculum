@@ -41,12 +41,12 @@ function App() {
           <OfMainProfessionalProfile/><br></br>
           <OfMainOtherStudies/><br></br>
           <OfMain/>
+
         </div>
         <div className = 'col-5'>
           <br></br>
           <br></br>
-          <br></br>
-          <OfMainWorkExperience/><br></br>
+          <OfMainWorkExperience/>
           <br></br>
           <OfMainTitles/>
         </div>

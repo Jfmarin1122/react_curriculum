@@ -78,13 +78,13 @@
 
 .contac_title {
   background-color: rgb(106, 136, 192);
-}
-
-.contac_text {
-  background-color: rgb(106, 136, 192);
   font-family: 'Times New Roman', Times, serif;
   color: rgb(219, 215, 215);
   text-align: center;
+}
+
+.button_send {
+  font-style: inherit;
 }
 
 .App {

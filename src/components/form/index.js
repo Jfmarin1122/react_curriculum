@@ -1,12 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Form(props) {
+function Form() {
     return (
         <div class="card border-primary rounded-0">
             <div class="card-header p-0">
                 <div class="contac_title">
-                    <h3><i class = "contac_text"></i> Contáctame</h3>
+                    <h3><i className = "contac_text"></i> CONTACTAME</h3>
                 </div>
             </div>
             <div class="card-body p-3">
@@ -28,45 +28,45 @@ function Form(props) {
                 </div>
 
                 <div class="text-center">
-                    <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2"/>
+                    <input type="submit" value="Enviar" class="button_send"/>
                 </div>
             </div>
 
         </div>
     );
-  }
+}
   
-  const formInfo ={
-      YourName:'Nombre',
-      YourEmail:'Correo',
-      subject:'Objetivo',
-      send:'enviar'
-  }
+const formInfo ={
+    YourName:'Nombre',
+    YourEmail:'Correo',
+    subject:'Objetivo',
+    send:'enviar'
+}
   
-  function CurriculumForm(props) {
-      return(
-          <div>
-              <Form
-              YourName={props.YourName}
-              YourEmail={props.YourEmail}
-              subject={props.subject}
-              send={props.send} 
-              />
-          </div>
-      );
-  }
+function CurriculumForm(props) {
+    return(
+        <div>
+            <Form
+            YourName={props.YourName}
+            YourEmail={props.YourEmail}
+            subject={props.subject}
+            send={props.send} 
+            />
+        </div>
+    );
+}
   
-  function OfMainForm(){
-      return(
-          <div>
-              <CurriculumForm
-              YourName={formInfo.YourName}
-              YourEmail={formInfo.YourEmail}
-              send={formInfo.send}
-              subject={formInfo.subject}
-              />
-          </div>
-      );
-  }
+function OfMainForm(){
+    return(
+        <div>
+            <CurriculumForm
+            YourName={formInfo.YourName}
+            YourEmail={formInfo.YourEmail}
+            send={formInfo.send}
+            subject={formInfo.subject}
+            />
+        </div>
+    );
+}
   
-  export default OfMainForm;
+export default OfMainForm;
