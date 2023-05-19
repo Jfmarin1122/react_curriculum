@@ -1,11 +1,15 @@
-# Proyecto Final - React js
+# Repositorio Curriculum
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Es un proyecto en el que se trabajan tecnologías como Bootstrap, HTML, CSS, Javascript, Git y React js.
 
-## Available Scripts
+## Procesos:
 
-In the project directory, you can run:
-
+<ul>
+    <li>Instalación de react js.  </li>
+    <li>Creación de proyecto.</li>
+    <li>Verificación de conexión.</li>
+    <li></li>
+</ul>
 ### `npm start`
 
 Runs the app in the development mode.\
