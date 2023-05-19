@@ -1,3 +1,74 @@
+.image--photo {
+  width: 70%;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.container {
+  background-color: rgb(106, 136, 192);
+  border: rgb(83, 124, 199);
+  border-style: hidden;
+}
+
+.name {
+  color: rgb(219, 215, 215);;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+.title {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+
+.title_studies {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.list_studies {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title_profile {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text--profile {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.information {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.list_information--profile{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main_text {
+  background-color: rgb(219, 215, 215);
+}
+
+.tile_esperience {
+  background-color: rgb(219, 215, 215);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.list_experience {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title--studies {
+  background-color: rgb(219, 215, 215);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.list_studies {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .App {
   text-align: center;
 }
