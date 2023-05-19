@@ -2,23 +2,25 @@
 
 Es un proyecto en el que se trabajan tecnologías como Bootstrap, HTML, CSS, Javascript, Git y React js.
 
+## Introducción:
+
+Proyecto que consiste en la creación de un curriculum, en la que se utilizan diversas tecnologías, y se pone en práctica todo lo aprendido, además de la implementación de react js, que es un tema con un amplio repertorio. 
+
 ## Procesos:
 
 <ul>
     <li>Instalación de react js.  </li>
     <li>Creación de proyecto.</li>
     <li>Verificación de conexión.</li>
-    <li></li>
 </ul>
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Realizado por:
 
-### `npm test`
+Juan Felipe Marín Romero, soy estudiante de Ingeniería de Sistemas y Telecomunicaciones, actualmente curso quinto semestre en la universidad de manizales (https://umanizales.edu.co/).
+Tengo conocimiento en las siguiente tecnologias.
+<img src='tec.png' alt = 'Tecnologias'>
+Espero seguir ampliando mi conocimiento, en diversos ambitos tecnológicos.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
