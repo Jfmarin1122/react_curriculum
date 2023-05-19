@@ -17,9 +17,8 @@ Proyecto que consiste en la creación de un curriculum, en la que se utilizan di
 
 ### Realizado por:
 
-Juan Felipe Marín Romero, soy estudiante de Ingeniería de Sistemas y Telecomunicaciones, actualmente curso quinto semestre en la universidad de manizales (https://umanizales.edu.co/).
-Tengo conocimiento en las siguiente tecnologias.
-<img src='tec.png' alt = 'Tecnologias'>
+Juan Felipe Marín Romero, soy estudiante de Ingeniería de Sistemas y Telecomunicaciones, actualmente curso quinto semestre en la universidad de manizales <a href='https://umanizales.edu.co/' target='_blank'>, tengo conocimiento en las siguiente tecnologias.
+<img src='../curriculum_vitae/src/components/images/tec.png' alt = 'Tecnologias'><br>
 Espero seguir ampliando mi conocimiento, en diversos ambitos tecnológicos.
 
 Launches the test runner in the interactive watch mode.\
