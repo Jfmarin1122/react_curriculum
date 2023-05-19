@@ -10,16 +10,9 @@ import OfMainProfessionalProfile from './components/professional_profile';
 import OfMainWorkExperience from './components/work_experience';
 import OfMainOtherStudies from './components/other_studies';
 import personal from './components/images/foto.png';
-import OfMainTechonologies from './components/technologies';
-import python from './components/images/python.png';
-import git from './components/images/git.png';
-import mysql from './components/images/mysql.png';
-import github from './components/images/github.png';
-import web from './components/images/js_html_css.png';
-import gitlab from './components/images/gitlab.png';
 import OfMainTitleTec from './components/title';
 import technologies from './components/images/tec.png';
-//import logo from './components/imagenes/tecnologias.png';
+
 
 function App() {
   return (
