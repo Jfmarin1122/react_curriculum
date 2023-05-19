@@ -5,34 +5,34 @@ function Titles(props){
       <div className='information--degrees'>
         <br></br>
         <br></br>
-        <h4 className = "title--form"><b>{props.formulario}</b></h4>
+        <h4 className = "title--form"><b>{props.tecnologias}</b></h4>
         <br></br>
       </div>
     );
   }
 
 const myTitles ={
-    formulario:'CONTACTAME:',
+    tecnologias:'TECNOLOGIAS:',
 }
 
-function CurriculumTitleForm(props) {
+function CurriculumTitleTec(props) {
     return(
         <div>
             <Titles
-            formulario = {props.formulario}   
+            tecnologias = {props.tecnologias}   
             />
         </div>
     );
 }
 
-function OfMainTitleForm(){
+function OfMainTitleTec(){
     return(
         <div>
-            <CurriculumTitleForm
+            <CurriculumTitleTec
             formulario = {myTitles.formulario}
             />
         </div>
     );
 }
 
-export default OfMainTitleForm;
+export default OfMainTitleTec;

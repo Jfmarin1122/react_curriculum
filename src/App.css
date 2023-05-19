@@ -83,8 +83,10 @@
   text-align: center;
 }
 
-.button_send {
-  font-style: inherit;
+.image--tech {
+  width: 900px;
+  align-items: center;
+  align-content: center;
 }
 
 .App {

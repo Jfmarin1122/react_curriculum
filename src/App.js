@@ -10,7 +10,15 @@ import OfMainProfessionalProfile from './components/professional_profile';
 import OfMainWorkExperience from './components/work_experience';
 import OfMainOtherStudies from './components/other_studies';
 import personal from './components/images/foto.png';
-import OfMainTitleForm from './components/title';
+import OfMainTechonologies from './components/technologies';
+import python from './components/images/python.png';
+import git from './components/images/git.png';
+import mysql from './components/images/mysql.png';
+import github from './components/images/github.png';
+import web from './components/images/js_html_css.png';
+import gitlab from './components/images/gitlab.png';
+import OfMainTitleTec from './components/title';
+import technologies from './components/images/tecnologias.png';
 //import logo from './components/imagenes/tecnologias.png';
 
 function App() {
@@ -45,10 +53,15 @@ function App() {
         </div>
         <div className = 'col-5'>
           <br></br>
-          <br></br>
+          
           <OfMainWorkExperience/>
           <br></br>
           <OfMainTitles/>
+          <br></br>
+          <OfMainTitleTec/>
+          <div className='col-4'>
+            <img className = 'image--tech' src={technologies} alt = 'personal_photo'/>
+          </div>
         </div>
         <div className = 'col-1'></div>
       </div>
