@@ -6,6 +6,7 @@ function PersonalInformation (props) {
             <br/>
             <h4 className = "information"><b>{props.personal}</b></h4>
             <hr className='linea--hr1'/>
+            <p> {props.text}</p>
             <ul className = "list_information--profile">
                 <li className = "negrita--parrafo">{props.phone}</li>
                 <li className = "negrita--parrafo">{props.email}</li>
@@ -29,6 +30,7 @@ function CurriculumInformationMain (props) {
         <div>
             <PersonalInformation
             personal = {props.personal}
+            text = {props.text}
             phone = {props.phone}
             email = {props.email}
             address = {props.address}
